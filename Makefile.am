@@ -1,4 +1,4 @@
-SUBDIRS = src po help
+SUBDIRS = src
 
 NULL =
 

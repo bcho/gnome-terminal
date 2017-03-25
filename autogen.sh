@@ -12,4 +12,4 @@ autoreconf --verbose --force --install
 intltoolize --force
 cd -
 
-test -n "$NOCONFIGURE" || "$srcdir/configure" "$@"
+test -n "$NOCONFIGURE" || "$srcdir/configure" --disable-search-provider --disable-static --disable-migration "$@"
